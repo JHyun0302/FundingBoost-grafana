@@ -7,4 +7,4 @@ COPY grafana.ini /etc/grafana/grafana.ini
 EXPOSE 3100
 
 # 컨테이너 시작 시 실행할 명령어
-CMD ["--config.file=/etc/prometheus/prometheus.yml"]
+CMD ["--config.file=/etc/grafana/grafana.ini"]
